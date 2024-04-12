@@ -38,13 +38,14 @@ build project in directory frontend
 
 npm run watch -- command that monitors changes in files with extension js and css
 
-Use the API endpoints (including example requests and responses):
-    HTTP method 'get' localhost:8000/books  -- get all books (200)
-    HTTP method 'getById' localhost:8000/books/:id  -- get book by id(200)
-    HTTP method 'post' localhost:8000/books  -- post book(201)
-    HTTP method 'put' localhost:8000/books/:id  -- full update by id(200)
-    HTTP method 'patch' localhost:8000/books/:id  -- partial update by id(200)
-    HTTP method 'delete' localhost:8000/books/:id  -- destroy book by id(204)
+Use the API endpoints for Postman (including example requests and responses):
+
+    HTTP method 'get' localhost/api/books  -- get all books (200)
+    HTTP method 'getById' localhost/api/books/:id  -- get book by id(200)
+    HTTP method 'post' localhost/api/books  -- post book(201)
+    HTTP method 'put' localhost/api/books/:id  -- full update by id(200)
+    HTTP method 'patch' localhost/api/books/:id  -- partial update by id(200)
+    HTTP method 'delete' localhost/api/books/:id  -- destroy book by id(204)
 
 for open swagger documentation follow link http://localhost/api/doc
 
